@@ -21,7 +21,8 @@ FROM departments WHERE department_id = 'Finance';
 -- Imprimir en pantalla
 DBMS_OUTPUT.PUT_LINE('En el departamento: ' || v_depcon ||' trabajan: ' || v_total_depcon || empleados); 
 END; 
-/ ``` 
+/
+``` 
 
 
 
